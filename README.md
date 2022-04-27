@@ -35,7 +35,7 @@ The device does not need to be connected to a computer through USB during use: A
 
 ## Decoding the barcodes
 
-The following piece of python code can be used to decode the bar codes. The input to the function must be the sample time stamps of the transitions (up or down) in the channel that receives the barcodes. (If you need to extract those time stamps from a time series, see the "schmitt" function in our python-daw repository.) The output will be lists of the sample times of the start of each detected code and those codes themselves. 
+The easiest way to decode the bar codes is through the openEphysIO.Loader class in our [ephysio](https://github.com/citneuro/ephysio) repository. Alternatatively, the following piece of python code can be used to decode the bar codes. The input to the function must be the sample time stamps of the transitions (up or down) in the channel that receives the barcodes. (If you need to extract those time stamps from a time series, see the "schmitt" function in our python-daw repository.) The output will be lists of the sample times of the start of each detected code and those codes themselves. 
 
     import numpy as np
 
