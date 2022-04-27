@@ -84,6 +84,6 @@ The easiest way to decode the bar codes is through the openEphysIO.Loader class 
         
         return times, codes
     
-# Credits
+## Credits
 
-Developed and tested by DAW and Frank Lanfranchi
+Developed and tested by DAW and Frank Lanfranchi.
